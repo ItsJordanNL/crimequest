@@ -1,0 +1,25 @@
+:root {
+  --primary-color: #004682;
+  --secondary-color: #c9e200;
+  --text-color: #ffffff;
+  --text-Secondary-color: #000000;
+  --background-color: white;
+
+  --koptekst: 32px;
+  --subkop: 24px;
+  --regular-tekst: 16px;
+
+  --margin-buttons: 60px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body,
+#map {
+  height: 100%;
+  width: 100vw;
+}
