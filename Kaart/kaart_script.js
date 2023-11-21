@@ -31,3 +31,5 @@ function onLocationError(e) {
 map.on('locationerror', onLocationError);
 
 // =============================== Laat een error zien als hij je locatie niet kan vinden ================================ //
+
+L.marker([51.505, -0.09]).addTo(map);
