@@ -58,4 +58,5 @@ L.control.coordinates({
 map.zoomControl.remove();
 map.attributionControl.remove();
 
-// ============================= Remove control zoom ============================= //
+// ============================= Removal of functions etc. ============================= //
+
