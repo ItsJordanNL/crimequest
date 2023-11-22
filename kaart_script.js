@@ -1,12 +1,11 @@
 
-var map = L.map('map').setView([51.44083, 5.47778], 16);
-// var map = L.map('map').fitWorld();
+var map = L.map('map').setView([51.44083, 5.47778], 16); // Eindhoven locatie
+// var map = L.map('map').fitWorld(); // Laat de wereld zien indien geen locatie gevonden kan worden
+
 
 L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
     attribution: 'CrimeQuest',
 }).addTo(map);
-
-
 
 // =============================== Map load================================== //
 
@@ -16,6 +15,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
 
 function onLocationFound(e) {
     var radius = 100;
+
 
     L.marker(e.latlng).addTo(map)
         .bindPopup("You are within " + radius + " meters from this point").openPopup();
@@ -53,5 +53,9 @@ L.control.coordinates({
     useLatLngOrder: true,
 }).addTo(map)
 
-// =============================== Zoek coordinaten functie=========================== //
+// =============================== Zoek coordinaten functie =========================== //
 
+map.zoomControl.remove();
+map.attributionControl.remove();
+
+// ============================= Remove control zoom ============================= //
