@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap");
+
 :root {
   --primary-color: #004682;
   --secondary-color: #c9e200;
@@ -8,6 +10,7 @@
   --koptekst: 32px;
   --subkop: 24px;
   --regular-tekst: 16px;
+  --button-tekst: 10px;
 
   --margin-buttons: 60px;
 }
@@ -20,6 +23,38 @@ body {
 html,
 body,
 #map {
+  z-index: 1;
   height: 100%;
   width: 100vw;
+}
+
+#inventory {
+  position: absolute;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  gap: 5px;
+  width: 60px;
+  height: 60px;
+  bottom: 30px;
+  right: 20px;
+  z-index: 400;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+}
+
+.inventory_tekst {
+  padding: 0px;
+  margin: 0px;
+  font-size: var(--button-tekst);
+  color: var(--text-color);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.inventory-icon {
+  font-size: 22px !important;
+  color: var(--text-color);
 }
