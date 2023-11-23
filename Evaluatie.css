@@ -1,27 +1,29 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     width: 390px;
     height: 844px;
     overflow: hidden;
-
+    justify-content: center;
+    margin: 0 auto;
 }
-h2{
+
+h2 {
     color: #004682;
     font-size: 32px;
     font-family: 'montserrat';
-    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 50px 50px;
+    margin: 40px 40px;
 }
-.containerbewijsstukken{
-    border: 3px solid #0045826a ;
+
+.containerbewijsstukken {
+    border: 3px solid #0045826a;
     width: 370px;
     height: 184px;
     background-color: white;
@@ -32,13 +34,16 @@ h2{
     flex-direction: column;
     margin-bottom: 50px;
     border-radius: 10px;
+    padding: 2px;
 }
-.containerbewijsstukken h3{
+
+.containerbewijsstukken h3 {
     color: #004682;
     font-size: 24px;
     font-family: 'poppins';
 }
-.herstartknop{
+
+.herstartknop {
     background-color: #004682;
     color: #ffffff;
     width: 338px;
@@ -48,22 +53,67 @@ h2{
     font-weight: 700;
     font-size: 24px;
     border-radius: 10px;
-    box-shadow: 0px 4px 0px rgba(38,89, 153, 0.83);
+    box-shadow: 0px 4px 0px rgba(38, 89, 153, 0.83);
     cursor: pointer;
     display: flex;
     margin: 0 auto;
     justify-content: center;
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
 }
-.homebutton{
+
+.homebutton {
     font-family: 'poppins';
     font-size: 24px;
     display: flex;
     margin: 0 auto;
     justify-content: center;
 }
-.containerbewijsstukken p{
+
+.containerbewijsstukken p {
     font-family: 'poppins';
     font-size: 16px;
     color: #004682;
+}
+
+.evaluatieimage {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    border-radius: 10px;
+    width: 320px;
+    height: 230px;
+}
+.bewijzencontainer {
+display: flex;
+}
+
+.bewijzen {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid #C9E200;
+    margin-right: 10px; 
+    overflow: hidden;
+    margin: 10px 10px;
+}
+
+.bewijzen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.bewijzen3{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid red;
+    margin-right: 10px; 
+    overflow: hidden;
+    margin: 10px 10px;
+}
+.bewijzen3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
