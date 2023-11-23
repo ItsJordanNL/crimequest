@@ -17,6 +17,7 @@ body {
     height: 616px;
     max-width: 341px;
     margin: 10px auto 0px;
+    touch-action: none;
 
 }
 .wrapper{
@@ -35,9 +36,13 @@ h1 {
     align-items: center;
     justify-content: left;
     margin: 50px 20px 0px 20px;
-    font-weight: 500;
+    font-weight: 600;
 }
-
+i{
+    font-weight: 100;
+    font-size: 25px;
+    margin-right: 10px;
+}
 .box {
     position: absolute;
     width: 100%;

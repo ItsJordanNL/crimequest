@@ -7,9 +7,9 @@ let startX;
 let initialTransform = 0;
 let currentIndex = 0;
 
-container.addEventListener('touchstart', handleTouchStart);
-container.addEventListener('touchmove', handleTouchMove);
-container.addEventListener('touchend', handleTouchEnd);
+container.addEventListener('touchstart', handleTouchStart, { passive: false });
+container.addEventListener('touchmove', handleTouchMove, { passive: false });
+container.addEventListener('touchend', handleTouchEnd, { passive: false });
 
 function handleTouchStart(e) {
     startX = e.touches[0].clientX;
