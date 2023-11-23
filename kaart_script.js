@@ -35,12 +35,14 @@ map.on('locationerror', onLocationError);
 
 // =============================== Laat een error zien als hij je locatie niet kan vinden ================================ //
 
+L.marker([51.4512, 5.4800]).addTo(map);
 L.marker([51.44083, 5.47778]).addTo(map);
 L.marker([51.44371, 5.47778]).addTo(map);
 L.marker([51.4415, 5.4828]).addTo(map);
+L.marker([51.4393, 5.4751]).addTo(map);
 
 
-L.circle([51.44083, 5.47778],1000).addTo(map);
+L.circle([51.4512, 5.4800],100).addTo(map);
 
 
 // =============================== Markers & circles ============================ //
