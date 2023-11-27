@@ -62,7 +62,6 @@ body {
     height: 38%;
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
     background-size: cover;
-    background-position: 80% 88%;
     border-radius: 20px 20px 90px 30px;
     filter: grayscale(1);
     transition: all 0.5s;
@@ -72,6 +71,56 @@ body {
     height: 66%;
     clip-path: polygon(0 0, 100% 0, 100% 91.5%, 0% 100%);
     filter: grayscale(0);
+}
+
+.gele-jas {
+    background-image: url("img/gele_jas.png");
+    background-position: 80% 88%;
+}
+
+.zwarte-trui {
+    background-image: url("img/zwarte_trui.png");
+    background-position: 40% 30%;
+}
+
+.terreinwagen {
+    background-image: url("img/terreinwagen.png");
+    background-position: 0% 50%
+}
+
+.sportwagen {
+    background-image: url("img/sportwagen.png");
+    background-position: 0% 50%;
+}
+
+.schilderij {
+    background-image: url("img/schilderij.png");
+    background-position: 0% 100%;
+}
+
+.handschoen {
+    background-image: url("img/handschoen.png");
+    background-position: 100% 100%;
+}
+
+.keycard {
+    background-image: url("img/keycard.png");
+    background-position: 0% 100%;
+}
+
+.breekijzer {
+    background-image: url("img/breekijzer.png");
+    background-position: 80% 100%;
+}
+
+.bivakmuts {
+    background-image: url("img/bivakmuts.png");
+    background-position: 70% 100%;
+}
+
+.haar {
+    background-image: url("img/haar.png");
+    background-position: 50% 100%;
 }
 
 #informationTopContent {
@@ -205,7 +254,6 @@ body {
     height: 38%;
     clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
     background-size: cover;
-    background-position: 40% 30%;
     border-radius: 90px 30px 20px 20px;
     filter: grayscale(1);
     transition: all 0.5s;
