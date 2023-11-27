@@ -13,6 +13,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 timeElement.innerHTML = (elapsedTime / 10000).toFixed(0) + "s"; // Convert to seconds
             } else {
                 clearInterval(intervalId);
+                window.open("kaart.html", "_parent");
+                //Typ hier wat er moet gebeuren als de speler niet op tijd kiest
             }
         }, 10); // Smaller interval for smoother animation
         console.log()
@@ -77,6 +79,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
     topKiezen.addEventListener('click', function () {
         window.open("kaart.html", "_parent");
-        //Typ hier wat er moet gebeuren als
+        //Typ hier wat er moet gebeuren als de speler bewijsstuk 1 kiest
+    });
+
+    var bottomKiezen = document.getElementById('informationBottomButton');
+
+    bottomKiezen.addEventListener('click', function () {
+        window.open("kaart.html", "_parent");
+        //Typ hier wat er moet gebeuren als de speler bewijsstuk 2 kiest
     });
 });
