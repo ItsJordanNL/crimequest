@@ -104,6 +104,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    line-height: 30px;
     height: 51px;
 }
 
@@ -115,9 +116,10 @@ body {
     justify-content: center;
     align-items: center;
     gap: 5px;
-    padding: 0 15px;
+    padding: 15px 15px;
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     animation: visible 0.5s forwards;
+    margin-top: -15px;
 }
 
 @keyframes visible {
@@ -245,6 +247,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    line-height: 30px;
     height: 51px;
 }
 
@@ -272,9 +275,10 @@ body {
     justify-content: center;
     align-items: center;
     gap: 5px;
-    padding: 0 15px;
+    padding: 15px 15px;
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     animation: visible 0.5s forwards;
+    margin-top: -15px;
 }
 
 .keuze-bottom {

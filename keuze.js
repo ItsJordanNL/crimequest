@@ -72,4 +72,11 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById("itemContainerBottom").style.top = "3%";
         document.getElementById("itemContainerTop").style.bottom = "5%";
     });
+
+    var topKiezen = document.getElementById('informationTopButton');
+
+    topKiezen.addEventListener('click', function () {
+        window.open("kaart.html", "_parent");
+        //Typ hier wat er moet gebeuren als
+    });
 });
