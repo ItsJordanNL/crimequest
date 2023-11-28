@@ -63,3 +63,25 @@ body,
 .markerbutton {
   text-decoration: none !important;
 }
+
+.center-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.inventory-overlay {
+  top: 10px !important;
+  height: 80% !important;
+  width: 90% !important;
+  background-color: white !important;
+  border-radius: 12px !important;
+  transition: all 1s;
+}

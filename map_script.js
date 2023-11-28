@@ -87,3 +87,16 @@ function error(err) {
 
 map.zoomControl.remove();
 map.attributionControl.remove();
+
+/* ================================ einde Map ================================= */
+
+document.addEventListener("DOMContentLoaded", function () {
+  // Get the button element by its ID
+  var hitbox = document.getElementById("inventory");
+
+  // Add a click event listener to the button
+  hitbox.addEventListener("click", function () {
+    // Toggle the class on the button
+    hitbox.classList.add("inventory-overlay");
+  });
+});
