@@ -60,7 +60,7 @@ i{
 .dader {
     width: 342px;
     height: 230px;
-    border-radius: 12px;
+    border-radius: 12px 12px 0px 0px;
 }
 
 .box2 {
