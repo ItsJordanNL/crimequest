@@ -61,5 +61,5 @@ body,
 }
 
 .markerbutton {
-  text-decoration: none;
+  text-decoration: none !important;
 }
