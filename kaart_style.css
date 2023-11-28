@@ -23,6 +23,7 @@ body {
 html,
 body,
 #map {
+  font-family: poppins, sans-serif;
   z-index: 1;
   height: 100%;
   width: 100vw;
@@ -57,4 +58,8 @@ body,
 .inventory-icon {
   font-size: 22px !important;
   color: var(--text-color);
+}
+
+.markerbutton {
+  text-decoration: none;
 }
