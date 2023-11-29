@@ -2,7 +2,13 @@ let slideIndex = 1;
 showSlides(slideIndex);
 
 function plusSlides(n) {
-    showSlides(slideIndex += n);
+    if (slideIndex >= 5 && n === 1) {
+        // Als de huidige slideIndex 6 is en de gebruiker op "volgende" klikt
+        // Navigeer naar een andere pagina
+        window.location.href = "start.html";
+    } else {
+        showSlides(slideIndex += n);
+    }
 }
 
 function currentSlide(n) {
