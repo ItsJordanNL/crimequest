@@ -1,0 +1,155 @@
+:root {
+    --primary-color: #004682;
+    --secondary-color: #c9e200;
+    --text-color: #ffffff;
+    --text-secondary-color: 0, 0, 0;
+    --background-color: #ffffff;
+
+    --koptekst: 32px;
+    --subkop: 24px;
+    --regular-tekst: 16px;
+
+    --margin-buttons: 60px;
+
+    --horizontal-margin-container-introductie: 45px;
+    --vertical-margin-container-introductie: 45px;
+    --progress-bar-height: 20px;
+}
+
+* {
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.slides {
+    display: none
+}
+
+img {
+    vertical-align: middle;
+    width: 100%;
+}
+
+.container-introductie {
+    width: calc(100vw - 2 * var(--horizontal-margin-container-introductie));
+    height: calc(100vh - 2 * var(--vertical-margin-container-introductie));
+    margin: var(--vertical-margin-container-introductie) var(--horizontal-margin-container-introductie);
+    position: relative;
+}
+
+.volgende-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Next button */
+.next {
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    font-size: 18px;
+    transition: all 0.1s;
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin: auto;
+    border-bottom: 4px solid #00305a;
+}
+
+/* On click, make the bottom border smaller */
+.next:active {
+    border-bottom: 0px;
+}
+
+/* Caption text */
+.text {
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 16px;
+    height: 115px;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.dots {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 5px;
+    background-color: var(--primary-color);
+    opacity: 0.25;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: var(--primary-color);
+    opacity: 0.8;
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+
+    .prev,
+    .next,
+    .text {
+        font-size: 11px
+    }
+}
+
+.images {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    aspect-ratio: 1;
+    margin: auto;
+    border-radius: 6px;
+    opacity: 0.8;
+}
+
+.image-instructie {
+    background-image: url("img/instructie1.png");
+    background-position: 50% 50%;
+}
+
+.image-tijdsdruk {
+    background-image: url("img/instructie2.png");
+    background-position: 50% 50%;
+}
+
+.image-maatschappelijk {
+    background-image: url("img/instructie3.jpg");
+    background-position: 50% 50%;
+}
+
+.image-risicos {
+    background-image: url("img/instructie4.png");
+    background-position: 50% 50%;
+}
+
+.image-besluitvaardig {
+    background-image: url("img/instructie5.png");
+    background-position: 50% 50%;
+}
