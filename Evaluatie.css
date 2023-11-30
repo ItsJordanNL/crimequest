@@ -60,22 +60,22 @@ body {
 }
 
 .uitslagcontainer h1 {
-    font-family: 'montserrat';
+    font-family: 'poppins';
     font-size: 32px;
     margin: 20px 20px;
-
+    font-weight: 900;
 }
 .uitslagcontainer h2{
-    font-family: 'montserrat';
+    font-family: 'poppins';
     font-size: 24px;
-    margin-bottom: 20px;
     color: #C9E200;
+    font-weight: 500;
  
 }
 .uitslagcontainer h3{
-    margin-bottom: 30px;
-    font-weight: 400;
-    font-size: 20px;
+    font-family: 'montserrat';
+    font-size: 32px;
+    margin: 20px 20px;
 }
 .uitslagcontainer p{
     margin-bottom: 30px;
@@ -84,10 +84,14 @@ body {
     font-size: 20px;
 }
 .politielogo{
-    width: 56px;
+    width: 56   px;
     height: 63px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto 30px;
+}
+.badgecontainer{
+    margin-top: 30px;
+    padding-top: 30px;
 }
