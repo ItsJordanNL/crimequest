@@ -1,0 +1,21 @@
+:root {
+    --primary-color: #004682;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.splash {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.splash-logo {
+    height: 16%;
+}
