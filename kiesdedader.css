@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    background-color: #f5f5f5;
+    font-family: "Poppins", 'Montserrat', sans-serif;
+    height: 844px;
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+    height: 616px;
+    max-width: 341px;
+    margin: 10px auto 0px;
+    touch-action: none;
+
+}
+.wrapper{
+    position: relative;
+    height: 640px;
+    max-width: 371px;
+    margin: 40px auto 0px;
+    overflow: hidden;
+    margin-bottom: 20px;
+
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 50px 20px 0px 20px;
+    font-weight: 600;
+}
+i{
+    font-weight: 100;
+    font-size: 25px;
+    margin-right: 10px;
+}
+.box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(28, 28, 28, 0.4);
+    z-index: 2;
+    left: 0px;
+}
+
+.dader {
+    width: 342px;
+    height: 230px;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.box2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    left: 14px;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.bullets {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bullet {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #004682;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.titels {
+    color: #004682;
+    font-family: 'montserrat';
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+}
+
+.kenmerken p {
+    margin-bottom: 10px;
+}
+
+.kenmerken {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin-left: 3rem;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.namen {
+    color: #004682;
+    font-family: 'montserrat';
+    font-size: 24px;
+    margin-left: 3rem;
+    width: 100%;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.bullet.active {
+    transform: scale(1.5);
+    transition: transform 0.3s ease-in-out;
+}
+
+.sub {
+    background-color: #C9E200;
+    color: #004682;
+    width: 224px;
+    height: 50px;
+    border: none;
+    font-family: 'poppins';
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 0px rgba(143, 160, 0, 1);
+    cursor: pointer;
+
+}
+
+.sub:active {
+    background-color: #8fa200;
+}
