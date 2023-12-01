@@ -39,11 +39,29 @@
   </head>
   <body>
     <div id="map"></div>
-    <div id="inventory">
-      <span class="material-symbols-outlined inventory-icon">
-        inventory_2
-      </span>
-      <p class="inventory_tekst">Bewijs</p>
+
+    <div id="center-overlay">
+      <div id="inventory">
+        <span class="material-symbols-outlined" id="inventory-icon"
+          >inventory_2</span
+        >
+        <p id="inventory_tekst">Bewijs</p>
+        <div id="inventoryContent">
+          <h1 class="inventoryTitle">Verzameld Bewijsmateriaal</h1>
+          <h2 class="inventoryitemCount">3/5 aanwijzingen gevonden</h2>
+          <div class="itemGrid">
+            <div class="item1"></div>
+            <div class="item2"></div>
+            <div class="item3"></div>
+            <div class="item4"></div>
+            <div class="item5"></div>
+          </div>
+        </div>
+      </div>
+      <div id="closeInventory">
+        <span class="material-symbols-outlined closeBtn">close</span>
+      </div>
+      <div id="backgroundOverlay"></div>
     </div>
   </body>
 </html>

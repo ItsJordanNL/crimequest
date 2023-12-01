@@ -87,3 +87,31 @@ function error(err) {
 
 map.zoomControl.remove();
 map.attributionControl.remove();
+
+/* ================================ einde Map ================================= */
+
+document.addEventListener("DOMContentLoaded", function () {
+  // Get the button element by its ID
+  var hitbox = document.getElementById("inventory");
+  var closeButton = document.getElementById("closeInventory");
+
+  // Add a click event listener to the button
+  hitbox.addEventListener("click", function () {
+    // Toggle the class on the button
+    hitbox.classList.add("inventory-overlay");
+    document.getElementById("inventory-icon").style.display = "none";
+    document.getElementById("inventory_tekst").style.display = "none";
+    document.getElementById("closeInventory").style.display = "flex";
+    document.getElementById("backgroundOverlay").style.display = "flex";
+    document.getElementById("inventoryContent").style.display = "flex";
+  });
+
+  closeButton.addEventListener("click", function () {
+    hitbox.classList.remove("inventory-overlay");
+    document.getElementById("closeInventory").style.display = "none";
+    document.getElementById("inventory-icon").style.display = "";
+    document.getElementById("inventory_tekst").style.display = "";
+    document.getElementById("backgroundOverlay").style.display = "none";
+    document.getElementById("inventoryContent").style.display = "";
+  });
+});
