@@ -50,31 +50,31 @@ function succes(pos) {
 L.marker([51.45119, 5.48002], {
   title: "Keuze 1",
 })
-  .bindPopup('<a class="markerbutton" href="https://google.com">Scenario 1</a>')
+  .bindPopup('<a class="markerbutton" href="keuze1.html">Scenario 1</a>')
   .addTo(map);
 
 L.marker([51.45132, 5.47914], {
   title: "Keuze 2",
 })
-  .bindPopup('<a class="markerbutton" href="https://google.com">Scenario 2</a>')
+  .bindPopup('<a class="markerbutton" href="keuze2.html">Scenario 2</a>')
   .addTo(map);
 
 L.marker([51.45117, 5.47915], {
   title: "Keuze 3",
 })
-  .bindPopup('<a class="markerbutton" href="https://google.com">Scenario 3</a>')
+  .bindPopup('<a class="markerbutton" href="keuze3.html">Scenario 3</a>')
   .addTo(map);
 
 L.marker([51.45136, 5.47968], {
   title: "Keuze 4",
 })
-  .bindPopup('<a class="markerbutton" href="https://google.com">Scenario 4</a>')
+  .bindPopup('<a class="markerbutton" href="keuze4.html">Scenario 4</a>')
   .addTo(map);
 
 L.marker([51.45115, 5.47979], {
   title: "Keuze 5",
 })
-  .bindPopup('<a class="markerbutton" href="https://google.com">Scenario 5</a>')
+  .bindPopup('<a class="markerbutton" href="keuze5.html">Scenario 5</a><br><a class="markerbutton" href="dader.html">Kies dader</a>')
   .addTo(map);
 
 function error(err) {
