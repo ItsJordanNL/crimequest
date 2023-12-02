@@ -130,26 +130,26 @@ img {
 }
 
 .image-instructie {
-    background-image: url("img/instructie1.png");
+    background-image: url("../img/instructie1.png");
     background-position: 50% 50%;
 }
 
 .image-tijdsdruk {
-    background-image: url("img/instructie2.png");
+    background-image: url("../img/instructie2.png");
     background-position: 50% 50%;
 }
 
 .image-maatschappelijk {
-    background-image: url("img/instructie3.jpg");
+    background-image: url("../img/instructie3.jpg");
     background-position: 50% 50%;
 }
 
 .image-risicos {
-    background-image: url("img/instructie4.png");
+    background-image: url("../img/instructie4.png");
     background-position: 50% 50%;
 }
 
 .image-besluitvaardig {
-    background-image: url("img/instructie5.png");
+    background-image: url("../img/instructie5.png");
     background-position: 50% 50%;
 }

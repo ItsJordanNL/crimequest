@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap");
+
+:root {
+  --primary-color: #004682;
+  --secondary-color: #c9e200;
+  --text-color: #ffffff;
+  --text-Secondary-color: #000000;
+  --background-color: white;
+
+  --koptekst: 32px;
+  --subkop: 24px;
+  --regular-tekst: 16px;
+  --button-tekst: 10px;
+
+  --margin-buttons: 60px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body,
+#map {
+  font-family: poppins, sans-serif;
+  z-index: 1;
+  height: 100%;
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+#inventory {
+  position: absolute;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  width: 60px;
+  height: 60px;
+  bottom: 30px;
+  right: 20px;
+  z-index: 3;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+}
+
+#inventory_tekst {
+  padding: 0px;
+  margin: 0px;
+  font-size: var(--button-tekst);
+  color: var(--text-color);
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+#inventory-icon {
+  font-size: 22px !important;
+  color: var(--text-color);
+}
+
+.markerbutton {
+  text-decoration: none !important;
+}
+
+#center-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  transition: all 1s;
+  width: 100%;
+  height: 100%;
+}
+
+.inventory-overlay {
+  height: 80% !important;
+  width: 90% !important;
+  background-color: var(--primary-color) !important;
+  border-radius: 12px !important;
+  transition: all 1s;
+  bottom: 10% !important;
+}
+
+.closeBtn {
+  font-size: 30px !important;
+}
+
+#closeInventory {
+  color: white;
+  display: none;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  bottom: 10%;
+  z-index: 5;
+  animation: 1.2s buttonFade;
+  justify-content: center;
+}
+
+#backgroundOverlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: all 1s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  height: 100vh;
+  z-index: 2;
+}
+
+#inventoryContent {
+  display: none;
+  position: relative;
+  align-items: center;
+  height: 100%;
+  width: calc(100% - 20px);
+  flex-direction: column;
+  margin: 10px;
+  animation: contentFade 1s;
+}
+
+.inventoryTitle {
+  font-size: 22px;
+  color: var(--text-color);
+}
+
+.inventoryitemCount {
+  font-size: 18px;
+  color: var(--text-color);
+}
+
+.itemGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+  height: 50%;
+  width: 100%;
+}
+.item1 {
+  grid-area: 1 / 1 / 2 / 2;
+  background-image: url(../img/bivakmuts_icon.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: rgba(200, 200, 200, 0.4);
+  border-radius: 12px;
+}
+.item2 {
+  grid-area: 1 / 2 / 2 / 3;
+  background-image: url(../img/terreinwagen_icon.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: rgba(200, 200, 200, 0.4);
+  border-radius: 12px;
+}
+.item3 {
+  grid-area: 1 / 3 / 2 / 4;
+  background-image: url(../img/handschoen_icon.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: rgba(200, 200, 200, 0.4);
+  border-radius: 12px;
+}
+.item4 {
+  grid-area: 2 / 1 / 3 / 2;
+  background-image: url(../img/keycard_icon.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: rgba(200, 200, 200, 0.4);
+  border-radius: 12px;
+}
+.item5 {
+  grid-area: 2 / 2 / 3 / 3;
+  background-image: url();
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: rgba(200, 200, 200, 0.4);
+  border-radius: 12px;
+}
+
+@keyframes buttonFade {
+  from {
+    opacity: 0;
+  }
+
+  80% {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes contentFade {
+  from {
+    opacity: 0;
+  }
+
+  70% {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
