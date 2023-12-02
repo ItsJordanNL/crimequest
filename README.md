@@ -1,5 +1,0 @@
-# CrimeQuest Rosh Blue
-
-
-
-
