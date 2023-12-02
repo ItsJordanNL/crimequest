@@ -74,7 +74,7 @@ L.marker([51.45136, 5.47968], {
 L.marker([51.45115, 5.47979], {
   title: "Keuze 5",
 })
-  .bindPopup('<a class="markerbutton" href="keuze5.html">Scenario 5</a><br><a class="markerbutton" href="dader.html">Kies dader</a>')
+  .bindPopup('<a class="markerbutton" href="keuze5.html">Scenario 5</a><br>of<br><a class="markerbutton" href="dader.html">Kies dader</a>')
   .addTo(map);
 
 function error(err) {
