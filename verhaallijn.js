@@ -17,4 +17,7 @@ function gaNaarVolgendePagina() {
         // Als de huidige pagina pagina2.html is, ga naar pagina3.html
         window.location.href = "verhaallijn5.html";
     }
+    else {
+        window.location.href = "kaart.html";
+    }
 }
