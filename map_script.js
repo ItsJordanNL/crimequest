@@ -2,7 +2,7 @@ var map = L.map("map");
 map.setView([51.45124, 5.47952], 22);
 
 var greenIcon = L.icon({
-  iconUrl: "images/marker.png",
+  iconUrl: "img/marker.png",
 
   iconSize: [38, 38], // size of the icon
   shadowSize: [50, 64], // size of the shadow

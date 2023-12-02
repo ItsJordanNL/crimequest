@@ -145,7 +145,7 @@ body,
 }
 .item1 {
   grid-area: 1 / 1 / 2 / 2;
-  background-image: url(Icons/bivakmuts\ icon.png);
+  background-image: url(img/bivakmuts_icon.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -154,7 +154,7 @@ body,
 }
 .item2 {
   grid-area: 1 / 2 / 2 / 3;
-  background-image: url(Icons/grijze\ terreinwagen\ geblindeerd\ icon.png);
+  background-image: url(img/terreinwagen_icon.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -163,7 +163,7 @@ body,
 }
 .item3 {
   grid-area: 1 / 3 / 2 / 4;
-  background-image: url(Icons/handschoen\ icon.png);
+  background-image: url(img/handschoen_icon.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -172,7 +172,7 @@ body,
 }
 .item4 {
   grid-area: 2 / 1 / 3 / 2;
-  background-image: url(Icons/keycard\ icon.png);
+  background-image: url(img/keycard_icon.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
