@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 timeElement.innerHTML = (elapsedTime / 10000).toFixed(0) + "s"; // Convert to seconds
             } else {
                 clearInterval(intervalId);
+                alert("Je hebt niet op tijd gekozen, je wordt nu teruggestuurd naar de kaart");
                 window.open("kaart.html", "_parent");
                 //Typ hier wat er moet gebeuren als de speler niet op tijd kiest
             }
