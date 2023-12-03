@@ -49,3 +49,27 @@
     align-items: center;
 }
 
+.img-container{
+    display: flex;
+    justify-content: center;
+}
+.popup-img{
+    width: 186px;
+    display: flex;
+    justify-content: center;
+    margin-top: 38px;
+}
+
+.instructie-tekst3{
+    color: white;
+    font-size: 15px;
+    font-family: 'montserrat';
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    width: 291px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-top: 51px;
+}
