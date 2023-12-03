@@ -1,4 +1,4 @@
-.container-telefoon{
+.container-telefoon {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -6,7 +6,7 @@
     align-items: center;
 }
 
-.telefoon-afmetingen{
+.telefoon-afmetingen {
     width: 390px;
     height: 844px;
     background-image: url(images/mapmap\ achtergrond.png);
@@ -15,61 +15,70 @@
     align-items: center;
 }
 
-.popup-instructie{
+.popup-instructie {
     width: 340px;
     height: 568px;
     background-color: #004682;
     opacity: 80%;
     border-radius: 10px;
     margin-top: 59px;
+    display: none;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.instructie-tekst{
+.instructie-tekst {
     color: white;
     font-size: 32px;
     font-family: 'montserrat';
     font-weight: bold;
-    display: flex;
-    justify-content: center;
     margin-top: 44px;
 }
 
-.instructie-tekst2{
+.instructie-tekst2 {
     color: white;
     font-size: 15px;
     font-family: 'montserrat';
     font-weight: normal;
-    display: flex;
-    justify-content: center;
     width: 280px;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
+    margin-top: 10px;
+    text-align: center;
 }
 
-.img-container{
-    display: flex;
-    justify-content: center;
+.img-container {
+    margin-top: 10px;
 }
-.popup-img{
+
+.popup-img {
     width: 186px;
-    display: flex;
-    justify-content: center;
-    margin-top: 38px;
 }
 
-.instructie-tekst3{
+.instructie-tekst3 {
     color: white;
     font-size: 15px;
     font-family: 'montserrat';
     font-weight: bold;
+    width: 291px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.indicator-container {
     display: flex;
     justify-content: center;
-    width: 291px;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-    margin-top: 51px;
+    margin-top: 20px;
+}
+
+.indicator-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgb(177, 173, 173);
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.indicator-dot.active {
+    background-color: white;
 }
