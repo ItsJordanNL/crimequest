@@ -21,7 +21,7 @@
 
         // Verwijder de active class van alle indicator dots
         document.querySelectorAll('.indicator-dot').forEach(dot => {
-            dot.classList.remove('active');
+            // dot.classList.remove('active');
         });
 
         // Voeg de active class toe aan de geselecteerde indicator dot
@@ -39,7 +39,7 @@
 
             // Update the active indicator color
             document.querySelectorAll('.indicator-dot').forEach(dot => {
-                dot.classList.remove('active');
+                // dot.classList.remove('active');
             });
 
             document.querySelector('.indicator-dot:nth-child(' + (popupNumber + 1) + ')').classList.add('active');
