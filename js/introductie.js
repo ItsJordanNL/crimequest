@@ -5,7 +5,7 @@ function plusSlides(n) {
     if (slideIndex >= 5 && n === 1) {
         // Als de huidige slideIndex 6 is en de gebruiker op "volgende" klikt
         // Navigeer naar een andere pagina
-        window.location.href = "start.html", "_self";
+        window.location.href = "instructie.html", "_self";
     } else {
         showSlides(slideIndex += n);
     }

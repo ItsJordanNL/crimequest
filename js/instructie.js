@@ -31,7 +31,7 @@
     function handlePopupClick(popupNumber) {
         // If the clicked popup is the last one, you can handle the completion or any specific action
         if (popupNumber === 4) {
-            alert('Instructions Completed!');
+            window.location.href = "kaart.html", "_self";
             // You can add any additional action you want for completion
         } else {
             // If not the last one, proceed to the next popup
