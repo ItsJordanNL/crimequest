@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container-telefoon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-instructie {
+    width: 340px;
+    height: 568px;
+    background-color: #004682;
+    opacity: 80%;
+    border-radius: 10px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.instructie-tekst {
+    color: white;
+    font-size: 32px;
+    font-family: 'montserrat';
+    font-weight: bold;
+    margin-top: 44px;
+}
+
+.instructie-tekst2 {
+    color: white;
+    font-size: 15px;
+    font-family: 'montserrat';
+    font-weight: normal;
+    width: 280px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.img-container {
+    margin-top: 10px;
+}
+
+.popup-img {
+    width: 186px;
+}
+
+.instructie-tekst3 {
+    color: white;
+    font-size: 15px;
+    font-family: 'montserrat';
+    font-weight: bold;
+    width: 291px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.indicator-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.indicator-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgb(137, 131, 131);
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.active {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0 5px;
+    cursor: pointer;
+}
