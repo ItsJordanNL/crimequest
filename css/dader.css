@@ -106,17 +106,40 @@ i{
 
 .kenmerken p {
     margin-bottom: 10px;
-}
-
-.kenmerken {
+  }
+  
+  .kenmerken {
     display: flex;
     flex-direction: column;
     font-size: 20px;
     margin-left: 3rem;
     width: 100%;
     margin-bottom: 5px;
-}
-
+  }
+  
+  .kenmerken-item {
+    display: flex;
+    justify-content: flex-start; /* Align items to the start (left) */
+    align-items: baseline;
+    margin-bottom: 10px; /* Add some space between items */
+  }
+  
+  p {
+    margin: 0; /* Remove default margin for <p> elements */
+  }
+  
+  .answer {
+    margin-left: 78px;
+  }
+  .answer1{
+    margin-left: 38px;
+  }
+  /* Adjust the width based on your needs */
+  .kenmerken-item p:first-child {
+    min-width: 80px;
+    margin-right: 10px; /* Add some space between label and answer */
+  }
+  
 .namen {
     color: #004682;
     font-family: 'montserrat';
@@ -149,6 +172,10 @@ i{
 
 .sub:active {
     background-color: #8fa200;
+}
+
+.box, .box2 {
+    transition: left 0.3s ease-in-out, transform 0.3s ease-in-out, z-index 0.3s ease-in-out;
 }
 
 .zwart {
