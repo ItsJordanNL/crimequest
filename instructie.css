@@ -1,15 +1,14 @@
-.container-telefoon {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body {
+    margin: 0;
+    padding: 0;
 }
 
-.telefoon-afmetingen {
-    width: 390px;
-    height: 844px;
-    background-image: url(images/mapmap\ achtergrond.png);
+.container-telefoon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,7 +20,6 @@
     background-color: #004682;
     opacity: 80%;
     border-radius: 10px;
-    margin-top: 59px;
     display: none;
     flex-direction: column;
     justify-content: center;
@@ -85,5 +83,5 @@
     border-radius: 50%;
     background-color: white;
     margin: 0 5px;
-    cursor: pointer;}
-
+    cursor: pointer;
+}
