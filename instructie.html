@@ -4,15 +4,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Instructie pagina</title>
     <link rel="stylesheet" href="instructie.css">
     <script src="instructie.js"></script>
+
 </head>
 
 <body>
+    <button onClick="window.location.reload();">Refresh Page</button>
+    <div class="container-telefoon">
+        <div class="popup-instructie" id="popup1">
+            <p class="instructie-tekst">Locaties</p>
+            <p class="instructie-tekst2">Op de kaart staan een aantal locaties aangegeven met een markering</p>
+            <div class="img-container">
+                <img class="popup-img" src="images/locatie.png" alt="">
+            </div>
+            <p class="instructie-tekst3">Op de kaart staan een aantal locaties aangegeven met een markering</p>
+            <div class="indicator-container">
+                <span class="indicator-dot" onclick="changePopup(1)"></span>
+                <span class="indicator-dot" onclick="changePopup(2)"></span>
+                <span class="indicator-dot" onclick="changePopup(3)"></span>
+                <span class="indicator-dot" onclick="changePopup(4)"></span>
+            </div>
+        </div>
 
+        <div class="popup-instructie" id="popup2">
+            <p class="instructie-tekst">Bewijsstuk</p>
+            <p class="instructie-tekst2">Op locatie krijg je een pop-up te zien met de keuze welk bewijsstuk je mee wilt
+                nemen</p>
+            <div class="img-container">
+                <img class="popup-img" src="images/bewijs.png" alt="">
+            </div>
+            <p class="instructie-tekst3">Kies op locatie het juiste bewijsmateriaal bij de betreffende situatie, zodat
+                je het juiste bewijsmateriaal mee neemt</p>
+            <div class="indicator-container">
+                <span class="indicator-dot" onclick="changePopup(1)"></span>
+                <span class="indicator-dot" onclick="changePopup(2)"></span>
+                <span class="indicator-dot" onclick="changePopup(3)"></span>
+                <span class="indicator-dot" onclick="changePopup(4)"></span>
+            </div>
+        </div>
 
+        <div class="popup-instructie" id="popup3">
+            <p class="instructie-tekst">Tijd</p>
+            <p class="instructie-tekst2">Let op de tijd bij het kiezen van je bewijsmateriaal, een echte politie agent
+                heeft ook niet alle tijd van de wereld!</p>
+            <div class="img-container">
+                <img class="popup-img" src="images/tijd.png" alt="">
+            </div>
+            <p class="instructie-tekst3">Kies binnen de tijd zorgvuldig je aanpak of keuze, als de tijd verloopt krijg
+                je GEEN bewijsmateriaal!</p>
+            <div class="indicator-container">
+                <span class="indicator-dot" onclick="changePopup(1)"></span>
+                <span class="indicator-dot" onclick="changePopup(2)"></span>
+                <span class="indicator-dot" onclick="changePopup(3)"></span>
+                <span class="indicator-dot" onclick="changePopup(4)"></span>
+            </div>
+        </div>
 
+        <div class="popup-instructie" id="popup4">
+            <p class="instructie-tekst">Genoeg bewijs</p>
+            <p class="instructie-tekst2">Bij het verzamelen van het maximaal aantal items in je rugzak wordt het spel
+                automatisch beëindigd</p>
+            <div class="img-container">
+                <img class="popup-img" src="images/speur.png" alt="">
+            </div>
+            <p class="instructie-tekst3">Wanneer je genoeg bewijsmateriaal hebt verzameld, krijg je automatisch een pop
+                up scherm te zien om vervolgens een dader te kiezen!</p>
+            <div class="indicator-container">
+                <span class="indicator-dot" onclick="changePopup(1)"></span>
+                <span class="indicator-dot" onclick="changePopup(2)"></span>
+                <span class="indicator-dot" onclick="changePopup(3)"></span>
+                <span class="indicator-dot" onclick="changePopup(4)"></span>
+            </div>
+        </div>
+    </div>
+    </div>
 </body>
 
 </html>
