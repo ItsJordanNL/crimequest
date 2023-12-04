@@ -79,7 +79,7 @@ L.marker([51.45115, 5.47979], {
 
 function error(err) {
   if (err.code === 1) {
-    alert("Please allow geolocation access");
+    // alert("Please allow geolocation access");
   } else {
     alert("Cannot get current location");
   }
