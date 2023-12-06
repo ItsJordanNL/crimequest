@@ -132,22 +132,22 @@ img {
 
 .image-instructie {
     background-image: url("../img/instructie1.png");
-    background-position: 50% 50%;
+    background-position: 50% 15%;
 }
 
 .image-tijdsdruk {
     background-image: url("../img/instructie2.png");
-    background-position: 50% 50%;
+    background-position: 50% 20%;
 }
 
 .image-maatschappelijk {
     background-image: url("../img/instructie3.jpg");
-    background-position: 50% 50%;
+    background-position: 50% 40%;
 }
 
 .image-risicos {
     background-image: url("../img/instructie4.png");
-    background-position: 50% 50%;
+    background-position: 50% 80%;
 }
 
 .image-besluitvaardig {
