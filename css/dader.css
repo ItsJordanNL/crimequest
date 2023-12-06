@@ -37,6 +37,7 @@ h1 {
     justify-content: left;
     margin: 38px 20px 0px 20px;
     font-weight: 600;
+    color: #004682;
 }
 i{
     font-weight: 100;
@@ -83,6 +84,9 @@ i{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    bottom: 25px;
+    width: 100vw;
 }
 
 .bullet {
@@ -100,7 +104,7 @@ i{
     font-size: 32px;
     font-weight: 700;
     margin-top: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 
 }
 
@@ -114,14 +118,14 @@ i{
     font-size: 20px;
     margin-left: 3rem;
     width: 100%;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
   }
   
   .kenmerken-item {
     display: flex;
     justify-content: flex-start; /* Align items to the start (left) */
     align-items: baseline;
-    margin-bottom: 10px; /* Add some space between items */
+    margin-bottom: 5px; /* Add some space between items */
   }
   
   p {
@@ -147,7 +151,7 @@ i{
     margin-left: 3rem;
     width: 100%;
     font-weight: 600;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 .bullet.active {
@@ -178,6 +182,6 @@ i{
     transition: left 0.3s ease-in-out, transform 0.3s ease-in-out, z-index 0.3s ease-in-out;
 }
 
-.zwart {
-    color: black;
+.pijl {
+    color: #004682;
 }
