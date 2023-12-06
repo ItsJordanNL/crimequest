@@ -76,6 +76,7 @@ img {
     color: var(--primary-color);
     font-size: 16px;
     height: 115px;
+    line-height: 20px;
 }
 
 .title {
