@@ -91,7 +91,8 @@ body {
     align-items: center;
     margin: 0 auto 30px;
 }
-.badgecontainer{
-    margin-top: 30px;
-    padding-top: 30px;
+
+.bottomcontainer{
+    position: absolute;
+    bottom: 0;
 }
