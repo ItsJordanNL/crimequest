@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
             } else {
                 clearInterval(intervalId);
                 alert("Je hebt niet op tijd gekozen, je wordt nu teruggestuurd naar de kaart");
-                window.open("kaart.html", "_parent");
+                window.open("kaart.html", "_self");
                 //Typ hier wat er moet gebeuren als de speler niet op tijd kiest
             }
         }, 10); // Smaller interval for smoother animation
@@ -79,14 +79,14 @@ document.addEventListener('DOMContentLoaded', function () {
     var topKiezen = document.getElementById('infoTopContainer');
 
     topKiezen.addEventListener('click', function () {
-        window.open("kaart.html", "_parent");
+        window.open("kaart.html", "_self");
         //Typ hier wat er moet gebeuren als de speler bewijsstuk 1 kiest
     });
 
     var bottomKiezen = document.getElementById('infoBottomContainer');
 
     bottomKiezen.addEventListener('click', function () {
-        window.open("kaart.html", "_parent");
+        window.open("kaart.html", "_self");
         //Typ hier wat er moet gebeuren als de speler bewijsstuk 2 kiest
     });
 });
