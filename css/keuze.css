@@ -40,6 +40,7 @@ body {
     width: 100%;
     height: var(--progress-bar-height);
     background-color: #cccccc;
+    line-height: 16px;
 }
 
 #progress-bar {
