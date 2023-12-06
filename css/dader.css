@@ -96,6 +96,7 @@ i{
     background-color: #004682;
     margin: 0 5px;
     cursor: pointer;
+    opacity: 0.4;
 }
 
 .titels {
@@ -155,8 +156,8 @@ i{
 }
 
 .bullet.active {
-    opacity: 0.4;
     transition: transform 0.3s ease-in-out;
+    opacity: 1 !important;
 }
 
 .sub {
@@ -169,9 +170,11 @@ i{
     font-weight: 700;
     font-size: 16px;
     border-radius: 10px;
-    box-shadow: 0px 4px 0px rgba(143, 160, 0, 1);
+    transition: all 0.1s;
+    border-bottom: 4px solid rgba(143, 160, 0, 1);
     cursor: pointer;
     text-align: center;
+    outline: none;
 }
 
 .sub:active {
