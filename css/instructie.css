@@ -12,18 +12,19 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .popup-instructie {
-    width: 340px;
-    height: 568px;
+    height: 60%;
+    width: 90%;
     background-color: #004682;
-    opacity: 80%;
     border-radius: 10px;
     display: none;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding: 25px 0;
 }
 
 .instructie-tekst {
@@ -31,7 +32,6 @@ body {
     font-size: 32px;
     font-family: 'montserrat';
     font-weight: bold;
-    margin-top: 44px;
 }
 
 .instructie-tekst2 {
@@ -40,7 +40,6 @@ body {
     font-family: 'montserrat';
     font-weight: normal;
     width: 280px;
-    margin-top: 10px;
     text-align: center;
 }
 
@@ -50,6 +49,10 @@ body {
 
 .popup-img {
     width: 186px;
+}
+
+p {
+    margin: 0;
 }
 
 .instructie-tekst3 {
@@ -72,7 +75,8 @@ body {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background-color: rgb(137, 131, 131);
+    background-color: white;
+    opacity: 0.25;
     margin: 0 5px;
     cursor: pointer;
 }
@@ -81,9 +85,9 @@ body {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background-color: white;
     margin: 0 5px;
     cursor: pointer;
+    opacity: 0.8;
 }
 
 .map-image {
