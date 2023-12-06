@@ -18,9 +18,8 @@ body {
 .tekstwolkje {
     position: absolute;
     background-color: #fff; /* Witte achtergrondkleur */
-    padding: 10px;
-    border-radius: 22px 22px 22px 0px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Lichte schaduw */
+    padding: 15px;
+    border-radius: 20px 20px 20px 2px;
     top: 78%;
     left: 50%;
     width: 295px;
@@ -33,7 +32,7 @@ body {
 
 .door-tekst{
     color: white;
-    margin-top: 141px;
+    margin-top: 15%;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
@@ -43,7 +42,9 @@ body {
     animation: blink 3s infinite;
 }
 
-
+p {
+    margin: 0px;
+}
 
 @keyframes blink {
     0%, 100% {

@@ -4,6 +4,4 @@
 html,
 body {
   font-family: "Poppins", "Montserrat", sans-serif;
-  user-select: none;
-  user-zoom: fixed;
 }
