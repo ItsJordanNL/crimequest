@@ -86,7 +86,7 @@ header {
   font-size: 1.5rem;
   background-color: rgb(220, 237, 4);
   box-shadow: 0px 4px #95a805;
-  bottom: 5%;
+  bottom: 40px;
   width: 80%;
   height: 3.125rem;
   transition: all 0.1s ease;
