@@ -18,6 +18,6 @@ function gaNaarVolgendePagina() {
         window.location.href = "verhaallijn5.html";
     }
     else {
-        window.location.href = "kaart.html";
+        window.location.href = "instructie.html";
     }
 }
