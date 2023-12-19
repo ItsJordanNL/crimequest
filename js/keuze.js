@@ -76,14 +76,14 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById("itemContainerTop").style.bottom = "5%";
     });
 
-    var topKiezen = document.getElementById('infoTopContainer');
+    var topKiezen = document.getElementById('informationTopContent');
 
     topKiezen.addEventListener('click', function () {
         window.open("kaart.html", "_self");
         //Typ hier wat er moet gebeuren als de speler bewijsstuk 1 kiest
     });
 
-    var bottomKiezen = document.getElementById('infoBottomContainer');
+    var bottomKiezen = document.getElementById('informationBottomContent');
 
     bottomKiezen.addEventListener('click', function () {
         window.open("kaart.html", "_self");
